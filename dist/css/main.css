@@ -1,10 +1,14 @@
 body{background-color: #45dc45;}
-@media (min-width: 650px) {
+@media (min-width: 500px) {
   .flex-container {
     flex-direction: column;
   }
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .flex-item-right, .flex-item-left {
     flex: 100%;
   }
@@ -33,7 +37,7 @@ header{text-align: center;
         
         position:absolute;
         bottom:0;
-        width:110%;
+        width:100%;
         height:100px;   /* Height of the footer */
         background:#6cf;
         text-align: center;
